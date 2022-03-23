@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Syne+Mono&display=swap');
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
@@ -6,21 +7,23 @@ html{
 }
 
 body{
-    font: 1.6rem sans-serif;
+    font: 1.6rem  'Montserrat', sans-serif;
     margin: 0;
-    line-height: 1.6;
-    position: sticky;
-    top: 0;
-}
-header,nav,main, footer,p{
-    max-width: 70rem;
-    margin: 0 auto;
-    background-color: rgba(255,255,255,.8);
-    border-top: #222;
-    border-bottom: 15px solid #6f6f6f;  
-    border-radius: 1.5rem;
-    position: sticky;
     
+}
+h1,h2,h3,h4,p,ul,ol,figure{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: #222
+}
+*{
+    box-sizing: border-box;
 }
 img{
     display: inline-block;
@@ -28,6 +31,7 @@ img{
     height: 100%;
     vertical-align: middle;
     object-fit: cover;
+    padding: 2rem;
 }
 
 /*
@@ -40,25 +44,34 @@ theme
     --color-last: #3C3737
     --color-header: #ECE6EA
 }
-h1,h2,h3{
-    font-family: 'Comic Neue', cursive;
+header,nav,main, footer{
+    max-width: 70rem;
+    margin: 2rem auto;
+    background-color: rgba(255,255,255,0.8); 
+    border-radius: 0.9rem;
+    overflow: hidden;
+    padding: 1.5rem;
+}
+header h1::before{ /* icone en css */
+    content: url(../favicon/favicon-32x32.png);
+    vertical-align:middle;
+    margin-right: 2rem;
+    filter: invert(85%);
+}
+h1{
+    text-align: center;
+    text-shadow: 4px 3px 0px darkgray;
+}
+h2,h3{
+    font-family: 'Montserrat', cursive;
     font-weight: 200;
     text-transform: capitalize;
     font-weight: bold;
     font-size: 30px;
     text-shadow: 4px 3px 0px darkgray;
-    font-family: 'Syne Mono', monospace;
-    position: static;
-    top: 0;
 }
 
-h1,h2,h3,h4,p,ul,ol,figure{
-    margin: 0;
-    padding: 1rem;
-    list-style: none;
-    text-align: justify;
-    
-    
-
+footer  p{
+    text-align: center;
+    font-weight: bold;
 }
-
