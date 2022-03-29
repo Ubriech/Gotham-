@@ -1,4 +1,15 @@
+![Gotham](./asset/cover.jpg)
+&copy; Bathman - Projet Gotham City
 # GOTHAM CITY
-![Gotham](https://images-ext-2.discordapp.net/external/_vNE-2Fo7NvRtE08XDhv-aS4piq9KhIdraipoyPyJWs/https/cdn.pocket-lint.com/r/s/1200x/assets/images/149433-tv-feature-what-order-should-you-watch-the-batman-movies-and-shows-image1-gyquc3whrm.jpg?width=981&height=655)
-## Projet Gotham
+Situé au nord-est des colonies Britagniques.
+Informez-vous sur l'histoire de Bathman!!!
+
+[Plus de tétail](https://github.com/Ubriech)
+
+## Sommaire
+* 1.Histoire
+* 2.Géograghie
+* 3.Démographie
+
+## Projet Gotham:
 [Visiter](https://ubriech.github.io/Gotham-City/)
