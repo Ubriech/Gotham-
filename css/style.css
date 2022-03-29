@@ -9,7 +9,7 @@ html{
 body{
     font: 1.6rem  'Montserrat', sans-serif;
     margin: 0;
-    
+
 }
 h1,h2,h3,h4,p,ul,ol,figure{
     font-family: 'Montserrat', sans-serif;
@@ -34,6 +34,7 @@ img{
     padding: 2rem;
 }
 
+
 /*
 theme
  */
@@ -51,7 +52,10 @@ header,nav,main, footer{
     border-radius: 0.9rem;
     overflow: hidden;
     padding: 1.5rem;
+    position:sticky;
+    top: 0;
 }
+
 header h1::before{ /* icone en css */
     content: url(../favicon/favicon-32x32.png);
     vertical-align:middle;
@@ -61,6 +65,7 @@ header h1::before{ /* icone en css */
 h1{
     text-align: center;
     text-shadow: 4px 3px 0px darkgray;
+   
 }
 h2,h3{
     font-family: 'Montserrat', cursive;
